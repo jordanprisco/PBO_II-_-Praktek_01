@@ -3,14 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package praktek_01;
-  
+
 import com.mysql.jdbc.Driver;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Praktek_02 {
-     static final String DB_Url = "jdbc:mysql://localhost:3306/db_unidha";
+    static final String DB_Url = "jdbc:mysql://localhost:3306/db_unidha";
     private static Connection Test_Konek;
     public static Connection DB_Konek() throws SQLException,ClassNotFoundException {
         try{
@@ -25,6 +25,6 @@ public class Praktek_02 {
        return Test_Konek;
        }
     public static void main(String[] args) {
-       
+        
     }
 }
